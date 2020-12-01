@@ -3,7 +3,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
   instance:
-    hostname: localhost
+    hostname: http://eurekaserver-env.eba-trzeikiq.us-east-2.elasticbeanstalk.com/
     
 microservice:
  order-service:
