@@ -3,14 +3,14 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
   instance:
-    hostname: http://eurekaserver-env.eba-trzeikiq.us-east-2.elasticbeanstalk.com/
+    hostname: localhost
     
 microservice:
  order-service:
   endpoints:
    endpoint:
     uri: http://ORDER-SERVICE/api/order/book
- order-service:
+ payment-service:
   endpoints:
    endpoint:
     uri: http://PAYMENT-SERVICE/api/payment/pay    
