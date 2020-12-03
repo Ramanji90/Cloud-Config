@@ -3,7 +3,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
   instance:
-    hostname: http://localhost:8080/Eureka-Server-0.0.1-SNAPSHOT/
+    hostname: EUREKA-SERVER
     
 microservice:
  order-service:
