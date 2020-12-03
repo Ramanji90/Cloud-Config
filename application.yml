@@ -2,8 +2,10 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
+    service-url:
+     defaultZone: http://localhost:8080/Eureka-Server-0.0.1-SNAPSHOT/
   instance:
-    hostname: EUREKA-SERVER
+    hostname: localhost
     
 microservice:
  order-service:
