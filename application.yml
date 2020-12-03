@@ -3,7 +3,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-     defaultZone: http://localhost:8080/Eureka-Server-0.0.1-SNAPSHOT/
+     defaultZone: http://eurekaserver-env.eba-trzeikiq.us-east-2.elasticbeanstalk.com/
   instance:
     hostname: localhost
     
